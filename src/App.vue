@@ -1,18 +1,18 @@
 <template>
   <div class="h-screen">
-    <HeaderComponent />
     <router-view>
     </router-view>
+    <footer class="flex flex-row-reverse">
+      <img src="./assets/images/TRVG.png" class="h-32">
+    </footer>
   </div>
 </template>
 
 <script>
-import HeaderComponent from "./components/HeaderComponent.vue"
+
 
 export default {
-    components: {
-      HeaderComponent
-    }
+    
 }
 </script>
 
