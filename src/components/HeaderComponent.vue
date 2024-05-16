@@ -1,6 +1,6 @@
 <template>
-    <div class="header p-5 flex justify-center fixed w-full">
-        <img class="h-20" src="../assets/images/trg.png" alt="">
+    <div class="header flex justify-start w-full">
+        <img class="h-24" src="../assets/images/TRVG.png" alt="">
     </div>
 </template>
 
@@ -11,10 +11,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    .header{
-        background-color: #84ac16;
-    }
-
-    
-    
+    // .header{
+    //     background-color: #84ac16;
+    // }
 </style>
