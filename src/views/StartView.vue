@@ -7,8 +7,7 @@
         <span class="lucky leading-8">VIDES SPĒLE</span>
       </h1>
       
-      <router-link v-if="!this.loading" :to="`/${this.next}`" class="btn w-60">{{ next == 0 ? "Sākt" : "Turpināt" }}</router-link>
-      <button class="btn w-60" v-else disabled><span class="loading loading-dots loading-md"></span></button>
+      <router-link v-if="!this.loading" to="/0" class="btn w-60">Sākt</router-link>
     
     </div>
   </div>
@@ -20,31 +19,12 @@ import SvgComponent from "../components/SvgComponent.vue"
 export default {
   data(){
     return {
-      loading: true,
       next: null,
       user: null,
     }
   },
   components:{
     SvgComponent, HeaderComponent
-  },
-  mounted(){
-    fetch(import.meta.env.VITE_APP_HOST_URL)
-      .then(response => response.json())
-      .then(data => {
-        this.next = data.next;
-        this.user = data.user;
-      })
-      .catch(error => {
-        console.error(error.message)
-      })
-      .finally(() => {
-        this.loading = false
-        console.log(this.loading, this.next)
-      }
-      )
-
-      
   }
 }
 </script>
