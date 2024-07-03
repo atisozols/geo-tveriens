@@ -250,12 +250,6 @@ const quizes = [
     hint: ' Vidējais skaitlis.',
   },
   {
-    question: 'Cik kg pārtikas atkritumu gadā rada  viens iedzīvotājs Latvijā?',
-    answers: ['saldēt produktus', 'aiznest produktus kaimiņam', 'noslēpt'],
-    correct: 0,
-    hint: '  ',
-  },
-  {
     question:
       'Kāpēc elektromobiļi ir labs veids, kā palīdzēt samazināt globālo sasilšanu?',
     answers: [
@@ -292,7 +286,7 @@ const quizes = [
       'koraļļu rifi zaudē krāsu',
     ],
     correct: 2,
-    hint: '  ',
+    hint: ' Kāda okeāna ekosistēma zaudē savu krāsas pigmentu. ',
   },
   {
     question:
@@ -303,28 +297,28 @@ const quizes = [
       'lai vecāki nedomātu, ka jūs spēlējat videospēles',
     ],
     correct: 1,
-    hint: ' ',
+    hint: ' Elektroenerģija nerodas no zila gaisa, tāpēc tā ir jātaupa. Elektrība vēl joprojām tiek iegūta, sadedzinot fosīlos kurināmos, kas izdala siltumnīcefekta gāzes. ',
   },
   {
     question:
       'Pārtika ir pirmās nepieciešamības prece. Kad saražoto pārtiku izmetam, kas vēl tiek izšķiests?',
     answers: ['ūdens', 'trauku mazgājamais līdzeklis', 'salvetes'],
     correct: 0,
-    hint: ' ',
+    hint: ' Elementa ķīmiskā formula ir H2O ',
   },
   {
     question:
       'Ir zināms, ka vidēji pasaulē tiek izmesti 30% saražotās pārtikas. Kura ēdienu grupa tiek izmesta visvairāk?',
     answers: ['piena produkti', 'miltu izstrādājumi', 'augļi un dārzeņi'],
     correct: 2,
-    hint: ' ',
+    hint: ' Produkti, kas var tiešā veidā iegūti, piemēram, no piemājas dārza. ',
   },
   {
     question:
       'Cik lielā apjomā Baltijas jūru ir ietekmējusi eitrofikācija (ūdens aizaugšana)?',
     answers: ['42%', '97%', '64%'],
     correct: 1,
-    hint: ' ',
+    hint: ' Gandrīz visu. ',
   },
   {
     question: 'Kas ir zaļā domāšana?',
@@ -334,14 +328,14 @@ const quizes = [
       'perfekta nezāļu izravēšana dārzā',
     ],
     correct: 1,
-    hint: ' ',
+    hint: ' Zaļā domāšana ir pieeja, kas veicina ilgtspējīgu un videi draudzīgu attieksmi pret dzīvi un ikdienas paradumiem. Tā ir attieksme, kurā cilvēki apzināti izvēlas veikt darbības, kas mazina negatīvo ietekmi uz apkārtējo vidi. ',
   },
   {
     question:
       'Latvijas tirgū gadā tiek novietotas vairāk nekā 41 000 tonnas plastmasas iepakojuma, savukārt pārstrādāt var tikai  aptuveni 19 000 tonnas, jo  Latvijā 40% no veikalu plauktos sastopamo preču iepakojumiem ir…',
     answers: ['no krāsaina materiāla', 'pārāk maza izmēra', 'ir daudzslāņu'],
     correct: 2,
-    hint: ' ',
+    hint: ' Ar vairākām kārtām. ',
   },
   {
     question:
@@ -352,7 +346,7 @@ const quizes = [
       'kuģošanas līderi',
     ],
     correct: 0,
-    hint: ' ',
+    hint: ' Ideja līdzsvarot emisijas tā, lai tās būtu vienādas (vai mazākas) ar emisijām, kas tiek likvidētas planētas dabiskās absorbcijas rezultātā. ',
   },
   {
     question: 'Kas ir aprites ekonomika?',
@@ -362,67 +356,57 @@ const quizes = [
       'lineārās ekonomikas modelis',
     ],
     correct: 0,
-    hint: ' ',
+    hint: ' Produktu taupīga izmantošana. ',
   },
   {
     question: 'Ik gadu vairāk nekā 2,2 miljardi tonnu atkritumu rodas…',
     answers: ['Latvijā', 'Eiropas Savienībā', 'pasaulē'],
     correct: 1,
-    hint: ' ',
+    hint: ' Šīs starpvalstu savienības saīsinājums ir ES. ',
   },
   {
-    question: 'Kas ir atjaunojamā enerģija?Tā ir enerģija, ko iegūst no …',
+    question: 'Kas ir atjaunojamā enerģija? Tā ir enerģija, ko iegūst no …',
     answers: ['saules, vēja, ūdens', 'kalnu ledājiem', 'lielas jaudas motora'],
     correct: 0,
-    hint: ' ',
+    hint: ' Tādi enerģijas iegūšanas avoti, kuri nevar beigties. ',
   },
   {
     question:
       'Cik laika nepieciešams, lai pilnībā sadalītos plastmasas pudele?',
     answers: ['15 gadi', '100 gadi', '450 gadi'],
     correct: 2,
-    hint: ' ',
+    hint: ' Lielākais skaitlis. ',
   },
   {
     question:
       'Cik % no visas elektroenerģijas Latvijā saražo 3 lielākās HES - Rīgas, Plāviņu, Ķeguma?',
     answers: ['44%', '53%', '61%'],
     correct: 1,
-    hint: ' ',
+    hint: ' Nedaudz vairāk kā puse. ',
   },
   {
     question:
       'Pārstrādājot 100 alumīnija skārdenes, var iegūt tik daudz enerģijas, lai izgaismotu istabu …',
     answers: ['vienu dienu', '8 dienas', 'divas nedēļas'],
     correct: 2,
-    hint: ' ',
+    hint: ' 14 dienas. ',
   },
   {
     question:
       'Rūpnieciskas iekārtas PET pudeles vispirms pārstrādā smalkās pārslās, un no tām var izgatavot ..',
     answers: ['apģērbu, segas', 'pārtikas produktus', 'sadzīves tehniku'],
     correct: 0,
-    hint: ' ',
+    hint: ' Audumus. ',
   },
   {
-    question: 'Kā palīdzēt pasaulei?',
+    question: 'Kāda darbības dabu saudzētu visvairāk?',
     answers: [
-      'ēst tikai imprtētos produktus',
+      'ēst tikai importētos produktus',
       'nelaist gaisā balonus',
       'katru pavasari uzrakt dobes',
     ],
     correct: 1,
-    hint: ' ',
-  },
-  {
-    question: 'Kā palīdzēt pasaulei?',
-    answers: [
-      'ēst tikai imprtētos produktus',
-      'nelaist gaisā balonus',
-      'katru pavasari uzrakt dobes',
-    ],
-    correct: 1,
-    hint: ' ',
+    hint: ' Gaisa balons var pacelties, ja tajā tiek sildīts gaiss. Tas tiek sildīts sadedzinot dabasgāzi, kas ir fosīlais kurināmais. ',
   },
   {
     question: 'Kuras krāsas konteinerā ir jāizmet vecais ledusskapis?',
@@ -432,21 +416,21 @@ const quizes = [
       'nevienā, tas jānodod  šķirošanas punktā',
     ],
     correct: 2,
-    hint: ' ',
+    hint: ' Elektropreces nedrīkst mest atkritumu konteineros. ',
   },
   {
     question:
       'Sadzīves atkritumiem sadaloties, rodas gāzes, kas ir kaitīgas cilvēku un dzīvnieku veselībai. Tā ir..',
     answers: ['oglekļa dioksīds un metāns', 'ūdeņradis', 'vēdergāzes'],
     correct: 0,
-    hint: ' ',
+    hint: ' CO2, CH4 ',
   },
   {
     question:
       'Sadedzinot atkritumus nepiemērotos apstākļos (ugunskurā, krāsnī), rodas cilvēka veselībai kaitīgi izmeši ',
     answers: ['pelni', 'smiltis', 'smagie metāli'],
     correct: 2,
-    hint: ' ',
+    hint: ' Arī mūzikas žanrs. Svins, dzīvsudrbs, zelts. ',
   },
   {
     question: 'Mežu izciršanu var ierobežot, …',
@@ -456,32 +440,26 @@ const quizes = [
       'apliekot mežu ar ekoloģisko žogu',
     ],
     correct: 1,
-    hint: ' ',
+    hint: ' Nododot lieko papīru. ',
   },
   {
     question:
       'Papīra izejmateriāls ir celuloze, ko galvenokārt iegūst no koksnes. Lai saražotu vienu tonnu celulozes, ir jānocērt …',
     answers: ['4-5 koki', '12-14 koki', '20 koki'],
     correct: 1,
-    hint: ' ',
+    hint: ' Vidējais skaitļu intervāls. ',
   },
   {
     question: 'Jūras līmeņa celšanās ir pārspīlēta',
     answers: ['tas ir mīts', 'tā ir patiesība', '50/50'],
     correct: 0,
-    hint: ' ',
+    hint: ' Mīts - Izdomājums, nepatiess vēstījums, stāstījums (parasti par parādībām sabiedrībā). ',
   },
   {
     question: 'Vulkāni emitē vairāk CO2 (ogļskābā gāze) nekā cilvēku darbība',
     answers: ['tas ir mīts', 'tā ir patiesība', '50/50'],
     correct: 0,
-    hint: ' ',
-  },
-  {
-    question: 'Vulkāni emitē vairāk CO2 (ogļskābā gāze) nekā cilvēku darbība',
-    answers: ['tas ir mīts', 'tā ir patiesība', '50/50'],
-    correct: 0,
-    hint: ' ',
+    hint: ' Mīts - Izdomājums, nepatiess vēstījums, stāstījums (parasti par parādībām sabiedrībā). ',
   },
   {
     question: 'Kas ir Kioto protokols, ka ratificēja LR Saeima 2002.gadā?',
@@ -505,21 +483,21 @@ const quizes = [
       'Ar klimatu saistītie ekonomiskie zaudējumi pēdējos 40 gados pasaulē ir… ',
     answers: ['samazinājušies', 'palielinājušies', 'palikuši nemainīgi'],
     correct: 1,
-    hint: ' ',
+    hint: 'Pieauguši',
   },
   {
     question:
       'Starptautiskā sabiedrība ir vienisprātis, ka globālā sasilšana jānotur krietni zem… ',
     answers: ['+10°C', '+5° C', '+2° C '],
     correct: 2,
-    hint: ' ',
+    hint: ' 35,6 grādi pēc Fārenheita. ',
   },
   {
     question:
       'Cik procentu no ES budžeta tiks izlietoti cīņai pret klimata pārmaiņām?',
     answers: ['10%', '30%', '50% '],
     correct: 1,
-    hint: ' ',
+    hint: ' Gandrīz trešdaļa. ',
   },
   {
     question:
@@ -530,7 +508,7 @@ const quizes = [
       'miljonāri',
     ],
     correct: 0,
-    hint: ' ',
+    hint: ' Cilvēki ar sliktu financiālo stāvokli. ',
   },
 ];
 

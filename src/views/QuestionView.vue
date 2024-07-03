@@ -1,5 +1,6 @@
 <template>
   <div class="h-full pt-5">
+    <MapComponent />
     <h1 class="text-4xl font-bold mb-8 text-center">
       <span class="lucky leading-8">VIDES SPĒLE</span>
     </h1>
@@ -11,12 +12,15 @@
             <button class="btn w-full mt-5 h-20 text-lg" @click="answer(index)">{{ item }}</button>
           </li>
         </ul>
-        <p class="text-center p-10 h-10">{{ this.message }}</p>
+        <p class="text-center p-10 h-64">{{ this.message }}</p>
       </div>
     </div>
   </div>
 </template>
+
 <script>
+
+import MapComponent from "../components/MapComponent.vue"
 import HeaderComponent from "../components/HeaderComponent.vue"
 import quizes from '../assets/quizes'
 export default {
@@ -27,7 +31,7 @@ export default {
     }
   },
   components: {
-      HeaderComponent
+      HeaderComponent, MapComponent
   },
   mounted(){
     const randomIndex = Math.floor(Math.random() * quizes.length);
@@ -36,7 +40,7 @@ export default {
   methods: {
     answer(index){
       if(this.quiz.correct == index) {
-        if(this.$route.params.id == 9){
+        if(this.$route.params.id == "RqnH898JSY"){
           this.message = "Tu to paveici! Tava vērīgā acs un apņēmība aizveda tevi līdz finišam, un mēs esam priecīgi svinēt tavu sasniegumu. Turpini izpētīt, turpini atklāt un atceries: pasaule ir pilna ar slēptiem dārgumiem, kas tikai gaida, lai tos atrastu."
         } else{
           this.message = "Pareizi! Meklē nākošo jautājumu!"
@@ -44,7 +48,7 @@ export default {
         
         
       } else{
-        this.message = "Nepareizi :("
+        this.message = this.quiz.hint
       }
     }
   }

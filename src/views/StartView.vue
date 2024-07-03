@@ -7,7 +7,7 @@
         <span class="lucky leading-8">VIDES SPĒLE</span>
       </h1>
       
-      <router-link v-if="!this.loading" to="/0" class="btn w-60">Sākt</router-link>
+      <router-link v-if="!this.loading" to="/Z7QavKAhki" class="btn w-60">Sākt</router-link>
     
     </div>
   </div>
